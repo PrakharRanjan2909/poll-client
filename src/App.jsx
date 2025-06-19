@@ -8,6 +8,7 @@ import PollHistoryPage from "./Pages/poll-history/PollHistory";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
+  console.log(import.meta.env.VITE_API_BASE_URL);
   return (
     <BrowserRouter>
       <Routes>
